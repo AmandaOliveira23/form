@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f5f5f7;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+
+}
+
+p, label{
+    color: #444;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+template {
+    width: 300px;
+}
+
+textarea{
+    padding: 10px 5px;
+
+}
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #333;
+}
+
+.header h3{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+
+.form-container{
+    background-color: #fdfdfd;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+.form-header{
+    border-bottom: 1px solid #fdfdfd;
+    height: 45px;
+}
+
+.form-header p{
+    
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+    padding-top: 1rem;
+}
+
+.barra{
+    position: relative;
+    background: #fff;
+    
+    height: 1px;
+    text-align: center;
+    margin: 0 auto;
+    border: none; 
+}
+
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.required-field{
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.opcional-box{
+    display: inline-block;
+    margin: 0px 30px 30px 0px ;
+}
+
+.opcional-list li{
+    list-style: none;
+    margin-bottom: 5px;
+
+}
+
+.box-input p{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: #333;
+    color: white;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: #333; 
+    opacity: 1;   
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 480px){
+   .header{
+    background-color: #333;
+   }
+   .form-header p {
+    padding-top: 1rem;
+   }
+
+   .form-title {
+    font-size: 1rem;
+   }
+
+   .header h3{
+    font-size: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+   }
+
+
+   .form-container{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;}
+
+    .block, input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    input[type="file"],
+    template {width:100%;}
+}
+
